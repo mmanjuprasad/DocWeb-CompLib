@@ -7,8 +7,714 @@
     <title>DocWeb of CL</title>
 
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/428bba23b3.js"crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+    
+        <header class="nav-header-DW fixed">
+            
+                <h1 class="logo"><a href="#"> Zeta UI </a></h1>
+        
+                <div class="header__nav-DW">
+                  <nav>
+                    <ul>
+                      <li><a href="#">Documentation</a></li>
+                      <li><a href="#">Github</a></li>
+                      
+                    </ul>
+                  </nav>
+                  <!-- <a href="#" class="user">
+                    <div class="img"></div>
+                  </a> -->
+                </div>
+            
+        </header>
+
+
+        
+
+      <!-- <div class="components-container"> -->
+        <div class="sideBar">
+            <div>Getting Started</div>
+            <a href="#usage-container">How to use!?</a>
+            <div>Components</div>
+            <a href="#avatar-container">Avatar</a>
+            <a href="#alert-container">Alert</a>
+            <a href="#badge-container">Badge</a>
+            <a href="#button-container">Button</a>
+            <a href="#card-container">Card</a>
+            <a href="#image-container">Image</a>
+            <a href="#input-container">Input</a>
+            <a href="#snackbar-container">Snackbar</a>
+            <a href="#textUtilities-container">Text Utilities</a>
+            <a href="#list-container">List</a>
+            <a href="#rating-container">Ratings</a>
+            <a href="#navigation-container">Navigation</a>
+            <a href="#modal-container">Modal</a>
+            <a href="#simplified-grid-container">Simplified Grid</a>
+        </div>
+      <!-- </div>  -->
+
+
+
+      
+            <section class="section" id="usage-container">
+                
+                    <div class="container">
+                        <h1 class="cui-text">How to use this Component Library !?</h1> 
+                        <h3 class="cui-text">To use this component UI in your projects import the stylesheet in your HTML or CSS files</h3>
+                         
+                        
+                        <div class="container flex">  
+                        
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520fonts%2520script%2520link%250A%253Cscript%2520src%253D%2522https%253A%252F%252Fkit.fontawesome.com%252F428bba23b3.js%2522crossorigin%253D%2522anonymous%2522%253E%253C%252Fscript%253E%250A%252F%252F%2520css%2520stylesheet%2520link%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fecstatic-meninsky-484683.netlify.app%252Fstyles.css%2522%253E"  style="width: 892px; height: 260px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+            </section>
+        
+
+
+        <div class="container ">
+
+                       
+
+            <section class="section" id="card-container">
+                <div class="container">
+                    <h1 class="cui-text"> Card component</h1>
+                    <h3 class="cui-text">Three different types of card are shown below</h3>
+
+                </div>
+
+
+
+                
+                <div class="container flex">
+                    
+                    <!-- PRIME CARD -->
+                    
+                    <div class="card">
+                        <div class="card-basic">
+                            <div class="header image-fit">
+                                <img src="https://images.unsplash.com/photo-1600074169098-16a54d791d0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="card header image" srcset=""/>
+                            </div>
+                            <div class="card-content flex">
+                                <div class="author-details">
+                                    <h2>Primary Card I</h2>
+                                    <small>By Kurt Wagner</small>
+                                </div>
+                                <div class="content">
+                                    <p>Visit ten Places on earth before you die</p>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="button-text">
+                                    <button>Read</button>
+                                    <button>Bookmark</button>
+                                </div>
+                                <div class="button-icon flex">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-share-alt"></i></span>
+                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- PRIME CARD TYPE 1 -->
+                    <div class="card">
+                        <div class="card-basic">
+                            <div class="author-details">
+                                <h2>Primary Card II</h2>
+                                <small>By Kurt Wagner</small>
+                            </div>
+                            <div class="header image-fit">
+                                <img src="https://images.unsplash.com/photo-1538991383142-36c4edeaffde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="card header image" srcset=""/>
+                            </div>
+                            <div class="card-content flex">
+                                <div class="content">
+                                    <p>Visit ten Places on earth before you die</p>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="button-text">
+                                    <button>Read</button>
+                                    <button>Bookmark</button>
+                                </div>
+                                <div class="button-icon flex">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-share-alt"></i></span>
+                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- HORIZONTAL CARD  -->
+                    <div class="container card-container">
+                        <div class="card-hz">
+                            <div class="card-header">
+                                <div class="card-header image-fit">
+                                  <img class="card-header-img"
+                                    src="https://images.unsplash.com/photo-1599229526921-4f29d42b0b41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGllcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                                    alt="Card Header Image" srcset="" />
+                                  <div class="card-header-text">
+                                    <h4>Horizontal card</h4>
+                                    <p class="sub-heading">by Kurt Wagner</p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="footer flex">
+                                <div class="button-text">
+                                    <button>Read</button>
+                                    <button>Bookmark</button>
+                                </div>
+                                <div class="button-icon flex">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-share-alt"></i></span>
+                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                </div>
+                            </div>
+                        
+                    </div>
+            
+            
+                </div>
+
+                <div class="container">
+                    <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=yaml&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520PRIMARY%2520CARD%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-basic%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2520image-fit%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1600074169098-16a54d791d0d%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1172%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2520header%2520image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520srcset%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522author-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EOur%2520changing%2520planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EBy%2520Kurt%2520Wagner%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EVisit%2520ten%2520Places%2520on%2520earth%2520before%2520you%2520die%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-icon%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 1024px; height: 932px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+
+                <div class="container">
+                    <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=yaml&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520PRIMARY%2520CARD%2520TYPE%2520II%250A%250A%253B%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-basic%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522author-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EOur%2520changing%2520planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%253EBy%2520Kurt%2520Wagner%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2520image-fit%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1538991383142-36c4edeaffde%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZXxlbnwwfHwwfHw%25253D%2526w%253D1000%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card%2520header%2520image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520srcset%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EVisit%2520ten%2520Places%2520on%2520earth%2520before%2520you%2520die%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-icon%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"  style="width: 1024px; height: 932px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+
+                <div class="container">
+                    <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520HORIZONTAL%2520CARD%250A%250A%253Cdiv%2520class%253D%2522container%2520card-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-hz%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card-header%2520image-fit%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522card-header-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1599229526921-4f29d42b0b41%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8MXx8cGllcnxlbnwwfHwwfHw%25253D%2526w%253D1000%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Card%2520Header%2520Image%2522%2520srcset%253D%2522%2522%2520%252F%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522card-header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EOur%2520Changing%2520Planet%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sub-heading%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522button-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button-icon%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E"  style="width: 1024px; height: 709px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+            </section>
+            
+            
+           
+        
+            <!-- Badge component starts here -->
+
+            <section class="section" id="badge-container">
+                <div class="container">
+                    <h1 class="cui-text"> Badge component</h1>
+                    <h3 class="cui-text">Badges on top of button and icon are shown below</h3>
+
+                </div>
+
+                <div class="container">
+                    <div class="container flex">
+                        <div class="bwbl position-relative">
+                            <div class="badge">10+</div>
+                            <button>Inbox</button>
+                        </div>
+                
+                        <div class="iwbd position-relative">
+                            <div class="badge">12+</div>
+                            <span> <i class="fas fa-home"></i> </span>
+                        </div>
+                        <div>
+                            <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=yaml&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2520flex%2522%253E%250A%2509%253Cdiv%2520class%253D%2522bwbl%2520position-relative%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522badge%2522%253E10%252B%253C%252Fdiv%253E%250A%2509%2509%253Cbutton%253EInbox%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522iwbd%2520position-relative%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522badge%2522%253E12%252B%253C%252Fdiv%253E%250A%2509%2509%2509%253Cspan%253E%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"  style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            
+        
+        
+            <!-- Avatar Component start here  -->
+
+            <section class="section" id="avatar-container">
+
+                <div class="container">
+                    <h1 class="cui-text">Avatar Component</h1>
+                    <h3 class="cui-text">The image avatar is of five different sizes as shown below Select the different sizes accordingly</h3>
+                               
+                </div>
+                
+                <div class="container ">
+                    <div class="container flex">
+                        <div class="component__example-demo avatar__example-demo-container flex">
+                            <div class="avatar avatar-xl">
+                                <img class="img-responsive img-round" loading="lazy" src="./src/avatar-img-1.png" alt="avatar">
+                            </div>
+                            <div class="avatar avatar-lg">
+                                <img class="img-responsive img-round" loading="lazy" src="./src/avatar-img-1.png" alt="avatar">
+                            </div>
+                            <div class="avatar avatar-md">
+                                <img class="img-responsive img-round" loading="lazy" src="./src/avatar-img-1.png" alt="avatar">
+                            </div>
+                            <div class="avatar avatar-sm">
+                                <img class="img-responsive img-round" loading="lazy" src="./src/avatar-img-1.png" alt="avatar">
+                            </div>
+                            <div class="avatar avatar-xs">
+                                <img class="img-responsive img-round" loading="lazy" src="./src/avatar-img-1.png" alt="avatar">
+                            </div>
+                        </div>
+                        <div class="container ">
+                   
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component__example-demo%2520avatar__example-demo-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520%2520src%253D%2522.%252Fsrc%252Favatar-img-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520%2520src%253D%2522.%252Fsrc%252Favatar-img-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520%2520src%253D%2522.%252Fsrc%252Favatar-img-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520%2520src%253D%2522.%252Fsrc%252Favatar-img-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520%2520src%253D%2522.%252Fsrc%252Favatar-img-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E" style="width: 968px; height: 540px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>
+            
+        
+            <!-- alert component  -->
+
+            <section class="section" id="alert-container">
+                <div class="container">
+                    <h1 class="cui-text">Alert Component</h1>
+                    <h3 class="cui-text">The different types of alerts consist of primary, success warning and error are shown below</h3>
+                </div>
+                <div class="container flex">
+                    <div class="container">
+                        <div class="component-display">
+                            <div class="alert alert-primary">Primary alert </div>
+                            <div class="alert alert-success">Success alert </div>
+                            <div class="alert alert-warning"><span class="alert-icon"><i class="fas fa-exclamation-triangle"></i></span>Warning alert</div>
+                            <div class="alert alert-danger"><span class="alert-icon"><i class="fas fa-times-circle"></i></span>Danger alert Red</div>
+                            <div class="alert alert-success">
+                            <span class="alert-icon"><i class="fas fa-check-circle"></i></span>
+                            Success alert with icon.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        
+                            <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component-display%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253EPrimary%2520alert%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253ESuccess%2520alert%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253EWarning%2520alert%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253EDanger%2520alert%2520Red%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Success%2520alert%2520with%2520icon.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                       
+                    </div>
+                    
+
+                    
+                </div>
+
+            </section>
+
+
+           
+            
+        
+        
+        
+          <!-- Button-Image-Input -->
+        
+            <!-- Button component starts here -->
+
+            <section class="section" id="button-container">
+                <div class="container">
+                    <h1 class="cui-text"> Button component</h1>
+                    <h3 class="cui-text">Different types of buttons like Primary, Secondary, Link, Icon and floating buttons are present</h3>
+
+                </div>
+                <div class="container flex">
+                    <div class="container__components-holder">
+                        <button class="link link-primary">Primary</button>
+                        <button class="link link-secondary">Secondary</button>
+                        <button class="link-only">Link</button>
+                        <span class="link link-icon"><i class="fas fa-atom"></i></span>
+                        <button class="floating-action"> + </button>
+                    </div>
+                </div>
+                <div class="container flex">
+                    <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=yaml&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522container__components-holder%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522link%2520link-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2509%2509%253Cbutton%2520class%253D%2522link%2520link-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522link-only%2522%253ELink%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522link%2520link-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-atom%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522floating-action%2522%253E%2520%252B%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"  style="width: 731px; height: 336px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                
+            </section>
+        
+            
+        
+        
+            <!-- Image component starts here -->
+
+            <section class="section" id="image-container">
+
+                <div class="container">
+                    <h1 class="cui-text"> Image Component</h1>
+                    <h3 class="cui-text">Image component consist of a responsive image and a round icon image</h3>
+
+                </div>
+                <div class="container flex">
+                    <div class="container">
+                        <img class="img-circular" src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80" alt="">
+                
+                    </div>
+                    <div class="container">
+                        <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Circualar%2520image%250A%250A%250A%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Cimg%2520class%253D%2522img-circular%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"  style="width: 504px; height: 281px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+                
+                    <div class="container"> 
+                        <img class="responsive-img" src="https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+
+                    <div class="container">
+                        <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Responsive%2520image%250A%250A%250A%253Ciframe%250A%2520%2520src%253D%2522%2522%250A%2520%2520style%253D%2522width%253A%2520504px%253B%2520height%253A%2520281px%253B%2520border%253A0%253B%2520transform%253A%2520scale%281%29%253B%2520overflow%253Ahidden%253B%2522%250A%2520%2520sandbox%253D%2522allow-scripts%2520allow-same-origin%2522%253E%250A%253C%252Fiframe%253E"  style="width: 858px; height: 318px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+                </div>
+            </section>
+        
+            
+        
+           
+            
+            <!-- Input component starts here  -->
+
+            <section class="section" id="input-container">
+                <div class="container">
+                    <h1 class="cui-text"> Input Component</h1>
+                    <h3 class="cui-text">Input component with different types consisting of plain input, focused input, input with error & input with icon</h3>
+
+                </div>
+                <div class="container flex">
+                    <div class="container">
+                        <label for="username" class="input-lable">Enter your username:
+                            <input class="input-text" type="text" placeholder="Username">
+                        </label>
+                    </div>
+                
+                    <div class="container">
+                        <label for="username" class="input-lable">Enter your username:
+                            <input class="input-text-focused" type="text" placeholder="Please enter username">
+                        </label>
+                    </div>
+                
+                    <div class="container">
+                        <label for="Username" class="input-lable">Enter your username:
+                            <input class="input-text-error" type="text" placeholder="Please enter username">
+                            <p class="text-error">Please enter correct input ! </p>
+                        </label>
+                    </div>
+                
+                    <div class="container">
+                        <label for="search" class="">Enter text to search
+                            <input class="input-search" type="text" placeholder="">
+                        </label>
+                    </div>
+                </div>
+                <div class="container flex">
+                    <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522input-lable%2522%253EEnter%2520your%2520username%253A%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Username%2522%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522input-lable%2522%253EEnter%2520your%2520username%253A%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-text-focused%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Please%2520enter%2520username%2522%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Clabel%2520for%253D%2522Username%2522%2520class%253D%2522input-lable%2522%253EEnter%2520your%2520username%253A%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-text-error%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Please%2520enter%2520username%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-error%2522%253EPlease%2520enter%2520correct%2520input%2520%21%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Clabel%2520for%253D%2522search%2522%2520class%253D%2522%2522%253EEnter%2520text%2520to%2520search%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-search%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"  style="width: 858px; height: 616px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+            </section>
+
+            
+            
+        
+           
+        
+            <!-- snackbar start header -->
+
+            <section class="section" id="snackbar-container">
+                <div class="container">
+                    <h1 class="cui-text"> Snackbar Component</h1>
+                    <h3 class="cui-text">Snackbar component with a display msg and a retry button</h3>
+                </div>
+                <div class="container flex">
+                    <div class="container ">
+                        <div class="snackbar flex">
+                            <section class="snackbar-label">
+                              <span>Can't send photo. Retry in 5 seconds.</span>
+                            </section>
+                            <div class="snackbar-action flex">
+                              <span class="snackbar-action-button">Retry</span>
+                              <span class="snackbar-action-icon">
+                                <i class="fas fa-times"></i>
+                              </span>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </div>
+
+                <div class="container">
+                    <div class="container flex">
+                        <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2520%2522%253E%250A%2509%253Cdiv%2520class%253D%2522snackbar%2520flex%2522%253E%250A%2520%2520%2520%2520%2509%253Csection%2520class%253D%2522snackbar-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-action%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522snackbar-action-button%2522%253ERetry%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cspan%2520class%253D%2522snackbar-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"  style="width: 656px; height: 411px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+                    
+
+                </div>
+            </section>
+        
+            
+        
+        
+            <!-- Text utilities starts here  -->
+
+            <section class="section" id="textUtilities-container">
+                <div class="container">
+                    <h1 class="cui-text"> Text Utilities Component</h1>
+                    <h3 class="cui-text">Different types of heading with different font weight are shown below</h3>
+                </div>
+                <div class="container flex">
+                    <div class="container">
+                    <p class="h1">This is h1 heading</p>
+                    <p class="h2">This is h2 heading</p>
+                    <p class="h3">This is h3 heading</p>
+                    <p class="h4">This is h4 heading</p>
+                    <p class="h5">This is h5 heading</p>
+                    <p class="h6">This is h6 heading</p>
+                    </div>
+                    <div class="container">
+                        <iframe  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%253Cp%2520class%253D%2522h1%2522%253EThis%2520is%2520h1%2520heading%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522h2%2522%253EThis%2520is%2520h2%2520heading%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522h3%2522%253EThis%2520is%2520h3%2520heading%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522h4%2522%253EThis%2520is%2520h4%2520heading%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522h5%2522%253EThis%2520is%2520h5%2520heading%253C%252Fp%253E%250A%2509%253Cp%2520class%253D%2522h6%2522%253EThis%2520is%2520h6%2520heading%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 487px; height: 335px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin"></iframe>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <h3 class="cui-text">Different types of heading with different color are shown below</h3>
+                </div>
+                <div class="container flex">
+                    <div class="container">
+                        <p class="h3">This is h3 heading
+                            <small class="blue-color">with blue text</small>
+                        </p>
+                        <p class="h3">This is h3 heading
+                            <small class="green-color">with green text</small>
+                        </p>
+                        <p class="h3">This is  h3 heading
+                            <small class="danger-color">with red text</small>
+                        </p>
+                        
+                        <p class="h3">This is h3 heading
+                            <small class="info-color">with info text</small>
+                        </p>
+                        <p class="h3">This is h3 heading
+                            <small class="grey-color">with grey text</small>
+                        </p>
+                    </div>
+                    <div class="container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253B%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520This%2520is%2520h3%2520heading%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522blue-color%2522%253Ewith%2520blue%2520text%253C%252Fsmall%253E%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520This%2520is%2520h3%2520heading%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522green-color%2522%253Ewith%2520green%2520text%253C%252Fsmall%253E%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520This%2520is%2520h3%2520heading%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522danger-color%2522%253Ewith%2520red%2520text%253C%252Fsmall%253E%250A%2520%2520%253C%252Fp%253E%250A%250A%2520%2520%253Cp%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520This%2520is%2520h3%2520heading%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522info-color%2522%253Ewith%2520info%2520text%253C%252Fsmall%253E%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522h3%2522%253E%250A%2520%2520%2520%2520This%2520is%2520h3%2520heading%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522grey-color%2522%253Ewith%2520grey%2520text%253C%252Fsmall%253E%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"  style="width: 605px; height: 633px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 class="cui-text">Different types of heading with different text alignments are shown below</h3>
+                </div>
+                <div class="container flex">
+                    <div class="container ">
+                        <p class="text-left">This is Left aligned text.</p>
+                        <p class="text-center">This is Center aligned text.</p>
+                        <p class="text-right">This Right aligned text.</p>
+                    </div>
+                    <div class="container">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=text%2Fapache&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253B%253Cdiv%2520class%253D%2522container%2520%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522text-left%2522%253EThis%2520is%2520Left%2520aligned%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-center%2522%253EThis%2520is%2520Center%2520aligned%2520text.%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522text-right%2522%253EThis%2520Right%2520aligned%2520text.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"  style="width: 630px; height: 298px; border:0; transform: scale(1); overflow:hidden;"  sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        
+            
+        
+        
+            <!-- Lists starts here  -->
+            <section class="section" id="list-container">
+                <div class="container flex">
+                    <div class="container">
+                        <h3>List Title</h3>
+                        <div class="divider"></div>
+                        <ol class="spaced">
+                            <li> Item1</li>
+                            <li> Item2 </li>
+                            <li> Item3</li>
+                            <li> Item4</li>
+                            <li> Item5</li>
+                        </ol>
+                    </div>
+                </div>
+            
+            
+                <div class="container flex">
+                    <div class="container">
+                        <h3 class="">Lists with checkbox</h3>
+                        <div class="checkbox">
+                            <label for="checkbox-1">
+                                <input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                                Item1
+                            </label>
+                            <label for="checkbox-2">
+                                <input id="checkbox-2" name="checkbox" type="checkbox">
+                                Item2
+                            </label>
+                            <label for="checkbox-3">
+                                <input id="checkbox-3" name="checkbox" type="checkbox">
+                                Item3
+                            </label>
+                            <label for="checkbox-4">
+                                <input id="checkbox-4" name="checkbox" type="checkbox">
+                                Item4
+                            </label>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+        
+            
+        
+        
+        
+            <!-- Rating bar starts here  -->
+            
+            <section class="section" id="rating-container">
+                <div class="container flex">
+                    <div class="container">
+                        <h3> Ratings </h3>
+                        <br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+            </section>
+            
+        
+        
+            <!-- Modal box starts here  -->
+            <section class="section" id="modal-container">
+                <div class="container flex">
+                    <button class="trigger modal-btn">Modal Button!</button>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <span class="close-button">&times;</span>
+                            <h1>Hello I am Modal box !</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+        
+        
+            <!-- navigation bar starts here  -->
+
+
+            <section class="section" id="navigation-container">
+                <div class="container">
+                    <div class="container flex">
+                        <header class="navigation">
+                            <section class="nav-container-startsec">
+                                 <span><i class="fas fa-bars fa-lg"></i></span>
+                                 
+                                 <h1 class="nav-title"> Zeta Kart</h1>
+                            </section>
+                            <section class="nav-container-endsec">
+                                <span><i class="fas fa-bell fa-lg"  style="user-select: auto;"></i></span>
+                                <span><i class="fas fa-shopping-cart fa-lg"></i></span>
+                                <span><i class="fas fa-user-circle fa-lg"></i></span>
+                            </section>
+                        </header>
+                    </div>
+                    
+                
+                
+                    <!-- navigation header 2 -->
+                    <div class="container">
+                        <div class="conatainer flex">
+                            <header class="nav-header">
+                                <h1 class="logo"><a href="#"> Zeta Kart </a></h1>
+                            
+                                <div class="header__nav">
+                                  <nav>
+                                    <ul>
+                                      <li><a href="#">Home</a></li>
+                                      <li><a href="#">Orders</a></li>
+                                      <li><a href="#">Cart</a></li>
+                                    </ul>
+                                  </nav>
+                                  <a href="#" class="user">
+                                    <span>User</span>
+                                    <div class="img"></div>
+                                  </a>
+                                </div>
+                            </header>
+
+                        </div>
+
+                    </div>
+                   
+                        
+                </div>
+                
+            </section>
+                
+        
+        
+                <!-- Grid starts here  -->
+
+                <section class="section" id="simplified-grid-container">
+                    <div class="conatiner ">
+                        <div class="container flex">
+                            
+                            <div class="container">
+                                <h1>Two column Grid</h1>
+                                <div class="container-grid two-column-grid">
+                                    <div class="child">Child 1</div>
+                                    <div class="child">Child 2</div>
+                                </div>
+                            </div>
+                            
+                            <br>
+                            <br>
+                            
+                            <div class="container">
+                                <h1>Two column Grid</h1>
+                                <div class="container-grid three-column-grid">
+                                    <div class="child">Child 1</div>
+                                    <div class="child">Child 2</div>
+                                    <div class="child">Child 1</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </section>
+              
+               
+                
+        
+        
+            <script src="/index.js"></script>
+
+        </div>
+
+
+      
+      
+
     
 </body>
 </html>
