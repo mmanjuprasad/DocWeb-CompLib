@@ -2,7 +2,7 @@
 :root {
     font-size: 100%;
     --primary-color:black;
-    --secondary-color:rgba(2, 2, 2, 0.904);
+    --secondary-color:rgb(15, 15, 15);
   }
   *{
     margin: 0;
@@ -95,8 +95,8 @@
 }
 
 
-.sideBar{
-    grid-area: sideBar;
+.side-bar{
+    grid-area: side-bar;
     display: flex;
     flex-direction: column;
     gap: .6rem;
@@ -106,12 +106,12 @@
     font-size: 1.2rem;
 }
 
-.sideBar div{
+.side-bar div{
     font-weight: 600;
     color: var(--primary-color);
 }
 
-.sideBar a{
+.side-bar a{
     text-decoration: none;
     color: var(--primary-color);
     padding-left: .6rem;
@@ -119,20 +119,20 @@
     height: max-content;
 }
 
-.sideBar a:hover{
+.side-bar a:hover{
     background-color: var(--hover-color);
     font-weight: 600;
 }
 
-.sideBar a:active{
+.side-bar a:active{
     font-weight: 600;
 }
 
 .components{
-    grid-area: components;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
+  grid-area: components;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 
@@ -175,7 +175,7 @@
 }
 
 .cui-text{
-    text-align: center !important;
+    text-align: center;
     font-weight: 500;
   }
 
@@ -539,9 +539,10 @@
 }
 
 .responsive-img {
-  width: 100%;
+  width: 90%;
+  height: 90%
   height: auto;
-  transform: scale(0.4);
+  /* transform: scale(0.5); */
   min-height: 100%;
   object-fit: cover;
 }
@@ -629,13 +630,13 @@ input[type=text]:focus {
 /* Text utilities starts here  */
 
 .text-center{
-  text-align: center !important;
+  text-align: center ;
 }
 .text-left{
-  text-align: left !important;
+  text-align: left ;
 }
 .text-right{
-  text-align: right !important;
+  text-align: right ;
 }
 /* headings  */
 .h1 {
@@ -667,16 +668,16 @@ input[type=text]:focus {
   color: grey
 }
 .blue-color{
-  color: #0004ff!important;
+  color: #0004ff;
 }
 .green-color{
-  color: #28a745!important;
+  color: #28a745;
 }
 .danger-color{
-  color: #dc3545!important;
+  color: #dc3545;
 }
 .info-color{
-  color: #7017b8!important;
+  color: #7017b8;
 }
 
 
@@ -897,6 +898,8 @@ a {
  
   /* grid-template-rows: repeat(2, 1fr); */
   grid-auto-columns: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .child {
