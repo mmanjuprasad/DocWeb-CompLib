@@ -9,16 +9,30 @@ The website is hosted on netlify with URL: https://zetaui.netlify.app/
 The Component features present in this zetaUi library are:
 
 Avatar
+
 Alert
+
 Badge
+
 Button
+
 Card
+
 Image
+
 Input
+
 Text Utilites
+
 List
+
 Navigation
+
 Modal
+
 Rating
+
 Snackbar
+
 Simplified Grid
+
