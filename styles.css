@@ -221,12 +221,34 @@
   .card-content:hover{
       background-color: #f8f8f8;
   }
+
+  .card-content-overlay{
+    flex-direction: column;
+    top: -2rem;
+    margin: none;
+    height: 0;
+    border-radius: 0;
+}
   
   .author-details{
       padding: 1.4rem;
       font-weight: 500;
       font-size: 1.2rem;
   }
+
+  .author-details-overlay{
+    /* padding: 1.4rem; */
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    top: -4rem;
+    color: white;
+    /* bottom: 20px; */
+    /* left: 10px; */
+    /* z-index: -auto; */
+    /* overflow: hidden; */
+    
+}
   
   .content{
       padding: 0 0.8rem 1.6rem 1.6rem;
@@ -318,13 +340,41 @@
   .position-relative{
     position: relative;
     display: inline-block;
+    z-index: -1;
   }
 
 
   .image-fit{
     object-fit: cover;
 }
-  /* Badge styling starts here */
+
+/* close button on card badge styling  */
+
+.close-badge{
+  height: 2rem;
+  width: 2rem;
+  color:#f8f8f8;
+  background-color: rgb(19, 18, 18);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.cibd{
+  font-size: 2.5rem;
+    /* bottom: 10px;
+    right: 10px; */
+    border: none;
+    border-radius: 30%;
+    background-color: black;
+    right: 0;
+    /* top: 20px; */
+}
+ 
+
+/* Badge styling starts here */
 
   .badge{
     height: 2rem;
