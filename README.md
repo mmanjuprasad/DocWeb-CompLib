@@ -1,6 +1,6 @@
 # DocWeb-CompLib
 
-This the Documentation Website of Component library ZetaUi by me.
+This is the Documentation Website of Component library ZetaUi by me.
 
 The components are available at this repo : https://github.com/mmanjuprasad/Component-Library/
 
